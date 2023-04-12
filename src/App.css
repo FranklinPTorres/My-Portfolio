@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+.portfolioText{
+  margin: 5% 20%;
+}
+
+.foto-image{
+  height: 400px;
+  margin: 5% 15%;
+}
