@@ -46,3 +46,12 @@
   height: 400px;
   margin: 5% 15%;
 }
+
+.row{
+  text-align: center;
+  margin: 15px auto;
+}
+
+.mp-text{
+  margin: 60px;
+}

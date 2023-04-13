@@ -1,12 +1,13 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import picture from './images/pro1.png'
 
 
 function Projets() {
   return (
    <div className='row'>
      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src='src/Components/images/pro1.png' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -28,7 +29,7 @@ function Projets() {
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
