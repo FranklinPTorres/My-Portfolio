@@ -1,12 +1,15 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import picture from './images/pro1.png'
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Projets() {
   return (
+    <Container className='fluid'>
    <div className='row'>
-     <Card style={{ width: '18rem' }}>
+     <Col> <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src='src/Components/images/pro1.png' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
@@ -17,7 +20,11 @@ function Projets() {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    
+    </Col>
+
+    <Col>
+    <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
@@ -28,7 +35,10 @@ function Projets() {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    </Col>
+
+<Col>
+<Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src="" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
@@ -39,7 +49,10 @@ function Projets() {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
+    </Col>
+
    </div>
+   </Container>
   );
 }
 

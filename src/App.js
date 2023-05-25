@@ -1,10 +1,11 @@
 
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import './App.css';
 import NavBar from "./Components/NavBar"
 import foto from "./Components/images/foto.png"
 import Projets from "./Components/Projects";
 import About from "./About"
+ 
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
      <h2 className="mp-text">My Projects</h2>
       <Projets />
     <h2 className="mp-text">Contacts</h2>
+    
 
     </div>
   );
