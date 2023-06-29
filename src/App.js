@@ -14,11 +14,12 @@ function App() {
       <NavBar />
       <img src={foto} alt="foto" className="foto-image" />
       <h1 className="portfolioText">Hello My Name is Franklin and this is my Portfolio</h1>
-      <h2 className="mp-text">About me</h2>
+      
+      <h2 className="mp-text" id='aboutMe'>About me</h2>
       <About />
-     <h2 className="mp-text">My Projects</h2>
+     <h2 className="mp-text" id='projects'>My Projects</h2>
       <Projets />
-    <h2 className="mp-text">Contacts</h2>
+    <h2 className="mp-text" id='contact'>Contacts</h2>
     
 
     </div>

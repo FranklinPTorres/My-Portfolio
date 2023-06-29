@@ -1,16 +1,19 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import pictures  from './images/pro1.png'
+import picture1  from './images/pro1.png'
+import picture2  from './images/pro2.png'
+import picture3  from './images/pro3.png'
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+// import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
 
 function Projets() {
   return (
     <Container className='fluid'>
    <div className='row'>
      <Col> <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src='src/Components/images/pro1.png' />
+      <Card.Img variant="top" src={picture1} className='proImg' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -25,7 +28,7 @@ function Projets() {
 
     <Col>
     <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={picture2} className='proImg' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -39,7 +42,7 @@ function Projets() {
 
 <Col>
 <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src="" />
+      <Card.Img variant="top" src={picture3} className='proImg' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -53,6 +56,7 @@ function Projets() {
 
    </div>
    </Container>
+   
   );
 }
 
