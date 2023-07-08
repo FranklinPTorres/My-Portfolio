@@ -61,4 +61,8 @@
   font-size: 35pt;
 }
 
-
+#proImg{
+  height: 200px;
+  width: 200px;
+  margin-left: 100px ;
+}

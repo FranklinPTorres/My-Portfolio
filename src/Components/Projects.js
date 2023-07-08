@@ -13,7 +13,7 @@ function Projets() {
     <Container className='fluid'>
    <div className='row'>
      <Col> <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src={picture1} className='proImg' />
+      <Card.Img variant="top" src={picture1} id='proImg' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -28,7 +28,7 @@ function Projets() {
 
     <Col>
     <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src={picture2} className='proImg' />
+      <Card.Img variant="top" src={picture2} id='proImg' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -42,7 +42,7 @@ function Projets() {
 
 <Col>
 <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src={picture3} className='proImg' />
+      <Card.Img variant="top" src={picture3} id='proImg' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
